@@ -1,17 +1,15 @@
-/*Trying without bootstrap*/
-/*header {
-	height: 150px;
-	width: auto;
-	background-color: powderblue;
-}*/
-/*.name {
-	margin: 20px ;
-}*/
+body {
+	background-color: #eeee67;
+	/*background: url(images/feather-seamless-pattern.png)top center no-repeat;*/
+}
+/*Header Section*/
 .headwrap {
 	width: auto;
 	height: auto;
-	background-color: lightsteelblue;
+	background-color: #ffff5c;
 	position: relative;
+	/*margin-bottom: 15px;*/
+	margin-top: 15px;
 }
 
 img {
@@ -20,6 +18,7 @@ img {
 	border-radius: 50%;
 	margin-top: 25px;
 	margin-left: 35px;
+	margin: 10px 35px;
 }
 
 h1, small {
@@ -28,11 +27,67 @@ h1, small {
 
 .info {
  	display: inline;
- 	margin-top: 29px;
+ 	margin-top: 23px;
  	margin-left: 390px;
  	position: absolute;
  }
 
- .info li{
+.info li{
  	list-style: none;
  }
+/*Profile and Key Competencies*/
+.profile{
+	margin-left: 200px;
+}
+.profile h1 {
+ 	margin-left: 55px;
+ 	margin-bottom: 15px;
+ }
+
+.profile p{
+ 	margin: 10px 55px;
+ 	width: 800px;
+ 	font-size: 15px;
+ }
+
+h2, table, h4, h5 {
+	margin: 20px 55px;
+}
+
+td {
+	width: 400px;
+	line-height: 40px;
+	font-size: 18px;
+}
+h5 {
+	color: dimgrey;
+}
+.techSkills h2 {
+	margin: 20px 55px;	 
+}
+/*Professional Experiences*/
+.projects p {
+	margin: 30px 75px;
+}
+
+.title {
+	border-top: 1px solid black;
+}
+
+.bullet {
+	margin-left: 35px;
+	/*margin-right: 55px;*/
+	width: 800px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
