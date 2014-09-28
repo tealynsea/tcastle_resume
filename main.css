@@ -1,0 +1,38 @@
+/*Trying without bootstrap*/
+/*header {
+	height: 150px;
+	width: auto;
+	background-color: powderblue;
+}*/
+/*.name {
+	margin: 20px ;
+}*/
+.headwrap {
+	width: auto;
+	height: auto;
+	background-color: lightsteelblue;
+	position: relative;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 25px;
+	margin-left: 35px;
+}
+
+h1, small {
+	display: inline;
+ }
+
+.info {
+ 	display: inline;
+ 	margin-top: 29px;
+ 	margin-left: 390px;
+ 	position: absolute;
+ }
+
+ .info li{
+ 	list-style: none;
+ }
