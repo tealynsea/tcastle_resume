@@ -38,6 +38,17 @@ h1, small {
 	display: inline;
  }
 
+ div#popupFront {
+  display: none;
+  position: absolute;
+  width: 340px;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+}
+
 .info {
  	display: inline;
  	margin-top: 23px;
